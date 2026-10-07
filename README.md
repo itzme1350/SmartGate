@@ -245,11 +245,7 @@ This explains:
 
 ### Troubleshooting
 
-See:
-
-```text
-docs/TROUBLESHOOTING.md
-```
+See:docs/TROUBLESHOOTING.md
 
 This contains solutions for common problems such as:
 
