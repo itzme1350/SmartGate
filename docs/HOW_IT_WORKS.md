@@ -1,34 +1,25 @@
 # How SmartGate Works
 
 ## System Overview
-...
 
-## ELEGOO Mega 2560
-...
+SmartGate is an NFC-based parking access control system built using an ELEGOO Mega 2560.
 
-## RC522 NFC Reader
-...
+The Mega 2560 acts as the main controller. It receives data from the RC522 RFID/NFC reader and then controls the LCD, LEDs, buzzer, and stepper motor.
 
-## SPI Pins
-...
+The basic system flow is:
 
-## LEDs
-...
-
-## Buzzer
-...
-
-## 16x2 LCD
-...
-
-## Potentiometer
-...
-
-## Stepper Motor
-...
-
-## ULN2003 Driver
-...
-
-## Full System Flow
-...
+```text
+NFC Card
+   ↓
+RC522 RFID Reader
+   ↓
+ELEGOO Mega 2560
+   ├── LCD
+   ├── Green LED
+   ├── Red LED
+   ├── Buzzer
+   └── ULN2003 Driver
+            ↓
+       Stepper Motor
+            ↓
+          Gate
