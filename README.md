@@ -208,31 +208,19 @@ SmartGate/
 
 ### Build Guide
 
-See:
-
-```text
-docs/BUILD_GUIDE.md
-```
+See:[Build Guide](docs/BUILD_GUIDE.md)
 
 This contains the full instructions for rebuilding SmartGate.
 
 ### Wiring Guide
 
-See:
-
-```text
-docs/WIRING.md
-```
+See: [Wireing Guide](docs/WIRING.md)
 
 This contains the quick pin and wiring reference.
 
 ### How It Works
 
-See:
-
-```text
-docs/HOW_IT_WORKS.md
-```
+See: [How_IT_WORKS Guide](docs/HOW_IT_WORKS.md)
 
 This explains:
 
@@ -245,7 +233,7 @@ This explains:
 
 ### Troubleshooting
 
-See:docs/TROUBLESHOOTING.md
+See: [Troubleshooting Guide](docs/TROUBLESHOOTING.md)
 
 This contains solutions for common problems such as:
 
